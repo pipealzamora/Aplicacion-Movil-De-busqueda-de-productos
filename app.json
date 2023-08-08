@@ -23,11 +23,18 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#FFFFFF",
+        "softwareKeyboardLayoutMode": "resize",
+      },
+      "package": "com.franco.cumplido.ecosa_app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "82be71f5-5e10-4a8e-85fa-76f4e82657d3"
+      }
     }
   }
 }
